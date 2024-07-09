@@ -1,3 +1,16 @@
+:root {
+    --primary-color: orange;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
 .card-link {
 
 }
@@ -26,7 +39,12 @@
 
 }
 .card-container {
-
+border: 1px solid #000;
+max-width: 1200px;
+width: 90%;
+display: grid;
+margin: 2rem;
+background-color: var(--primary-color);
 }
 .card-img {
 
