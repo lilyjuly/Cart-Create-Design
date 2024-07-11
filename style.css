@@ -410,21 +410,12 @@ footer a {
       
   }
 }
-@media screen and (max-width: 768px) {
-  footer {
-      padding: 1px 36px; /* Adjust padding for smaller screens */
+@media screen and (max-width: 480px) {
+  footer h2 {
+    font-size: 1rem;
   }
 
-  h2 {
-      font-size: .5rem;
-
-       /* Adjust font size for smaller screens */
-
-  }
-
-  img {
-      width: 60px; /* Adjust image width for smaller screens */
-      height: 20px; /* Ensures image height adjusts proportionally */
+  footer img {
+    height: 20px;
   }
 }
-
